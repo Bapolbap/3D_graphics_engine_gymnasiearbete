@@ -1,0 +1,88 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "MinGW Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "C:/Users/pablo.jofre/Documents/c++ saker/cmake-3.20.0-rc1-windows-x86_64/cmake-3.20.0-rc1-windows-x86_64/bin/cmake.exe",
+			"cpack" : "C:/Users/pablo.jofre/Documents/c++ saker/cmake-3.20.0-rc1-windows-x86_64/cmake-3.20.0-rc1-windows-x86_64/bin/cpack.exe",
+			"ctest" : "C:/Users/pablo.jofre/Documents/c++ saker/cmake-3.20.0-rc1-windows-x86_64/cmake-3.20.0-rc1-windows-x86_64/bin/ctest.exe",
+			"root" : "C:/Users/pablo.jofre/Documents/c++ saker/cmake-3.20.0-rc1-windows-x86_64/cmake-3.20.0-rc1-windows-x86_64/share/cmake-3.20"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 20,
+			"patch" : 0,
+			"string" : "3.20.0-rc1",
+			"suffix" : "rc1"
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-4015e394540501df3aa0.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 2
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-648eb5349891acf94b6d.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-vscode" : 
+		{
+			"query.json" : 
+			{
+				"requests" : 
+				[
+					{
+						"kind" : "cache",
+						"version" : 2
+					},
+					{
+						"kind" : "codemodel",
+						"version" : 2
+					}
+				],
+				"responses" : 
+				[
+					{
+						"jsonFile" : "cache-v2-648eb5349891acf94b6d.json",
+						"kind" : "cache",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 0
+						}
+					},
+					{
+						"jsonFile" : "codemodel-v2-4015e394540501df3aa0.json",
+						"kind" : "codemodel",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 2
+						}
+					}
+				]
+			}
+		}
+	}
+}

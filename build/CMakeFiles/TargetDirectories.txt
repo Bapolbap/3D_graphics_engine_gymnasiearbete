@@ -1,0 +1,3 @@
+C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/edit_cache.dir
+C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/main.dir
+C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/rebuild_cache.dir
