@@ -1,0 +1,42 @@
+Performing C SOURCE FILE Test _GLFW_HAS_ASLR failed with the following output:
+Change Dir: C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/PABLO~1.JOF/DOCUME~1/C__SAK~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f66b5/fast && C:/Users/PABLO~1.JOF/DOCUME~1/C__SAK~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f66b5.dir\build.make CMakeFiles/cmTC_f66b5.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f66b5.dir/src.c.obj
+C:\Users\PABLO~1.JOF\DOCUME~1\C__SAK~1\mingw64\bin\X8EAA8~1.EXE -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -o CMakeFiles\cmTC_f66b5.dir\src.c.obj -c C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_f66b5.exe
+"C:\Users\pablo.jofre\Documents\c++ saker\cmake-3.20.0-rc1-windows-x86_64\cmake-3.20.0-rc1-windows-x86_64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f66b5.dir\link.txt --verbose=1
+"C:\Users\pablo.jofre\Documents\c++ saker\cmake-3.20.0-rc1-windows-x86_64\cmake-3.20.0-rc1-windows-x86_64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f66b5.dir/objects.a
+C:\Users\PABLO~1.JOF\DOCUME~1\C__SAK~1\mingw64\bin\ar.exe cr CMakeFiles\cmTC_f66b5.dir/objects.a @CMakeFiles\cmTC_f66b5.dir\objects1.rsp
+C:\Users\PABLO~1.JOF\DOCUME~1\C__SAK~1\mingw64\bin\X8EAA8~1.EXE  -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\cmTC_f66b5.dir/objects.a -Wl,--no-whole-archive -o cmTC_f66b5.exe -Wl,--out-implib,libcmTC_f66b5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f66b5.dir\linklibs.rsp
+collect2.exe: error: ld returned 5 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_f66b5.dir\build.make:100: cmTC_f66b5.exe] Error 1
+mingw32-make[1]: *** Deleting file 'cmTC_f66b5.exe'
+mingw32-make[1]: Leaving directory 'C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_f66b5/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
+Change Dir: C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/PABLO~1.JOF/DOCUME~1/C__SAK~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_65fa3/fast && C:/Users/PABLO~1.JOF/DOCUME~1/C__SAK~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_65fa3.dir\build.make CMakeFiles/cmTC_65fa3.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65fa3.dir/src.c.obj
+C:\Users\PABLO~1.JOF\DOCUME~1\C__SAK~1\mingw64\bin\X8EAA8~1.EXE -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -o CMakeFiles\cmTC_65fa3.dir\src.c.obj -c C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_65fa3.exe
+"C:\Users\pablo.jofre\Documents\c++ saker\cmake-3.20.0-rc1-windows-x86_64\cmake-3.20.0-rc1-windows-x86_64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_65fa3.dir\link.txt --verbose=1
+"C:\Users\pablo.jofre\Documents\c++ saker\cmake-3.20.0-rc1-windows-x86_64\cmake-3.20.0-rc1-windows-x86_64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_65fa3.dir/objects.a
+C:\Users\PABLO~1.JOF\DOCUME~1\C__SAK~1\mingw64\bin\ar.exe cr CMakeFiles\cmTC_65fa3.dir/objects.a @CMakeFiles\cmTC_65fa3.dir\objects1.rsp
+C:\Users\PABLO~1.JOF\DOCUME~1\C__SAK~1\mingw64\bin\X8EAA8~1.EXE  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\cmTC_65fa3.dir/objects.a -Wl,--no-whole-archive -o cmTC_65fa3.exe -Wl,--out-implib,libcmTC_65fa3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_65fa3.dir\linklibs.rsp
+collect2.exe: error: ld returned 5 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_65fa3.dir\build.make:100: cmTC_65fa3.exe] Error 1
+mingw32-make[1]: *** Deleting file 'cmTC_65fa3.exe'
+mingw32-make[1]: Leaving directory 'C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_65fa3/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }

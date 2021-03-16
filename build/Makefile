@@ -116,41 +116,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named glad
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
-.PHONY : main
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glad
+.PHONY : glad
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\glad.dir\build.make lib/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
 
-test.obj: test.cpp.obj
-.PHONY : test.obj
+#=============================================================================
+# Target rules for targets named glfw
 
-# target to build an object file
-test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/test.cpp.obj
-.PHONY : test.cpp.obj
+# Build rule for target.
+glfw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw
+.PHONY : glfw
 
-test.i: test.cpp.i
-.PHONY : test.i
+# fast build rule for target.
+glfw/fast:
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\glfw.dir\build.make lib/CMakeFiles/glfw.dir/build
+.PHONY : glfw/fast
 
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/test.cpp.i
-.PHONY : test.cpp.i
+#=============================================================================
+# Target rules for targets named 3D_PROJECT
 
-test.s: test.cpp.s
-.PHONY : test.s
+# Build rule for target.
+3D_PROJECT: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3D_PROJECT
+.PHONY : 3D_PROJECT
 
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/test.cpp.s
-.PHONY : test.cpp.s
+# fast build rule for target.
+3D_PROJECT/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\3D_PROJECT.dir\build.make src/CMakeFiles/3D_PROJECT.dir/build
+.PHONY : 3D_PROJECT/fast
 
 # Help Target
 help:
@@ -160,10 +162,9 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... 3D_PROJECT
+	@echo ... glad
+	@echo ... glfw
 .PHONY : help
 
 

@@ -62,42 +62,130 @@ CMAKE_BINARY_DIR = C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymn
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: lib/all
+all: src/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: lib/preinstall
+preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: lib/clean
+clean: src/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Directory level rules for directory lib
+
+# Recursive "all" directory target.
+lib/all: lib/CMakeFiles/glad.dir/all
+lib/all: lib/CMakeFiles/glfw.dir/all
+.PHONY : lib/all
+
+# Recursive "preinstall" directory target.
+lib/preinstall:
+.PHONY : lib/preinstall
+
+# Recursive "clean" directory target.
+lib/clean: lib/CMakeFiles/glad.dir/clean
+lib/clean: lib/CMakeFiles/glfw.dir/clean
+.PHONY : lib/clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/3D_PROJECT.dir/all
+.PHONY : src/all
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+.PHONY : src/preinstall
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/3D_PROJECT.dir/clean
+.PHONY : src/clean
+
+#=============================================================================
+# Target rules for target lib/CMakeFiles/glad.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+lib/CMakeFiles/glad.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\glad.dir\build.make lib/CMakeFiles/glad.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\glad.dir\build.make lib/CMakeFiles/glad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles --progress-num=4 "Built target glad"
+.PHONY : lib/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
+lib/CMakeFiles/glad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/glad.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : lib/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+glad: lib/CMakeFiles/glad.dir/rule
+.PHONY : glad
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+lib/CMakeFiles/glad.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\glad.dir\build.make lib/CMakeFiles/glad.dir/clean
+.PHONY : lib/CMakeFiles/glad.dir/clean
+
+#=============================================================================
+# Target rules for target lib/CMakeFiles/glfw.dir
+
+# All Build rule for target.
+lib/CMakeFiles/glfw.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\glfw.dir\build.make lib/CMakeFiles/glfw.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\glfw.dir\build.make lib/CMakeFiles/glfw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles --progress-num=5 "Built target glfw"
+.PHONY : lib/CMakeFiles/glfw.dir/all
+
+# Build rule for subdir invocation for target.
+lib/CMakeFiles/glfw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/glfw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles 0
+.PHONY : lib/CMakeFiles/glfw.dir/rule
+
+# Convenience name for target.
+glfw: lib/CMakeFiles/glfw.dir/rule
+.PHONY : glfw
+
+# clean rule for target.
+lib/CMakeFiles/glfw.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\glfw.dir\build.make lib/CMakeFiles/glfw.dir/clean
+.PHONY : lib/CMakeFiles/glfw.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/3D_PROJECT.dir
+
+# All Build rule for target.
+src/CMakeFiles/3D_PROJECT.dir/all: lib/CMakeFiles/glad.dir/all
+src/CMakeFiles/3D_PROJECT.dir/all: lib/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\3D_PROJECT.dir\build.make src/CMakeFiles/3D_PROJECT.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\3D_PROJECT.dir\build.make src/CMakeFiles/3D_PROJECT.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles --progress-num=1,2,3 "Built target 3D_PROJECT"
+.PHONY : src/CMakeFiles/3D_PROJECT.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/3D_PROJECT.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/3D_PROJECT.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymnasiearbete\build\CMakeFiles 0
+.PHONY : src/CMakeFiles/3D_PROJECT.dir/rule
+
+# Convenience name for target.
+3D_PROJECT: src/CMakeFiles/3D_PROJECT.dir/rule
+.PHONY : 3D_PROJECT
+
+# clean rule for target.
+src/CMakeFiles/3D_PROJECT.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\3D_PROJECT.dir\build.make src/CMakeFiles/3D_PROJECT.dir/clean
+.PHONY : src/CMakeFiles/3D_PROJECT.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

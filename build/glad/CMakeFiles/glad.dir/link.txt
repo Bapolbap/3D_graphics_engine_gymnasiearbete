@@ -1,0 +1,2 @@
+C:\Users\PABLO~1.JOF\DOCUME~1\C__SAK~1\mingw64\bin\ar.exe qc libglad.a CMakeFiles/glad.dir/glad.c.obj
+C:\Users\PABLO~1.JOF\DOCUME~1\C__SAK~1\mingw64\bin\ranlib.exe libglad.a

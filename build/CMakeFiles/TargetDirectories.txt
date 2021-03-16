@@ -1,3 +1,9 @@
 C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/edit_cache.dir
-C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/main.dir
 C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/CMakeFiles/rebuild_cache.dir
+C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/lib/CMakeFiles/glad.dir
+C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/lib/CMakeFiles/rebuild_cache.dir
+C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/lib/CMakeFiles/glfw.dir
+C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/lib/CMakeFiles/edit_cache.dir
+C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/src/CMakeFiles/3D_PROJECT.dir
+C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/src/CMakeFiles/edit_cache.dir
+C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/src/CMakeFiles/rebuild_cache.dir
