@@ -131,4 +131,8 @@ src/CMakeFiles/3D_PROJECT.dir/test.cpp.obj: \
  c\:\users\pablo~1.jof\docume~1\c__sak~1\mingw64\include\c++\10.2.0\bits\basic_ios.tcc \
  c\:\users\pablo~1.jof\docume~1\c__sak~1\mingw64\include\c++\10.2.0\bits\ostream.tcc \
  c\:\users\pablo~1.jof\docume~1\c__sak~1\mingw64\include\c++\10.2.0\istream \
- c\:\users\pablo~1.jof\docume~1\c__sak~1\mingw64\include\c++\10.2.0\bits\istream.tcc
+ c\:\users\pablo~1.jof\docume~1\c__sak~1\mingw64\include\c++\10.2.0\bits\istream.tcc \
+ c\:\users\pablo.jofre\documents\github\3d_graphics_engine_gymnasiearbete\lib\glad\glad.h \
+ c\:\users\pablo~1.jof\docume~1\c__sak~1\mingw64\x86_64-w64-mingw32\include\khr\khrplatform.h \
+ c\:\users\pablo.jofre\documents\github\3d_graphics_engine_gymnasiearbete\lib\glfw\glfw3.h \
+ c\:\users\pablo~1.jof\docume~1\c__sak~1\mingw64\x86_64-w64-mingw32\include\gl\gl.h

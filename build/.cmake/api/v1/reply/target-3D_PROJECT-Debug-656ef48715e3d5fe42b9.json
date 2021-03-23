@@ -36,12 +36,6 @@
 				"file" : 0,
 				"line" : 3,
 				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 4,
-				"parent" : 0
 			}
 		]
 	},
@@ -61,7 +55,7 @@
 					"path" : "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/lib/glad"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"path" : "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/lib/GLFW"
 				}
 			],
@@ -85,7 +79,7 @@
 					"path" : "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/lib/glad"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"path" : "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/lib/GLFW"
 				}
 			],
@@ -103,7 +97,7 @@
 			"id" : "glad::@306ed2d68c6501e8728f"
 		},
 		{
-			"backtrace" : 3,
+			"backtrace" : 2,
 			"id" : "glfw::@306ed2d68c6501e8728f"
 		}
 	],
@@ -126,7 +120,7 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 2,
 				"fragment" : "..\\lib\\libglfw.a",
 				"role" : "libraries"
 			},
