@@ -12,8 +12,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.0-rc1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.0-rc1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.0-rc1/CMakeSystem.cmake"
-  "../lib/CMakeLists.txt"
-  "../src/CMakeLists.txt"
   "C:/Users/pablo.jofre/Documents/c++ saker/cmake-3.20.0-rc1-windows-x86_64/cmake-3.20.0-rc1-windows-x86_64/share/cmake-3.20/Modules/CMakeCInformation.cmake"
   "C:/Users/pablo.jofre/Documents/c++ saker/cmake-3.20.0-rc1-windows-x86_64/cmake-3.20.0-rc1-windows-x86_64/share/cmake-3.20/Modules/CMakeCXXInformation.cmake"
   "C:/Users/pablo.jofre/Documents/c++ saker/cmake-3.20.0-rc1-windows-x86_64/cmake-3.20.0-rc1-windows-x86_64/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
@@ -46,13 +44,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "lib/CMakeFiles/glad.dir/DependInfo.cmake"
-  "lib/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "src/CMakeFiles/3D_PROJECT.dir/DependInfo.cmake"
+  "CMakeFiles/glad.dir/DependInfo.cmake"
+  "CMakeFiles/glfw.dir/DependInfo.cmake"
+  "CMakeFiles/3D_PROJECT.dir/DependInfo.cmake"
   )

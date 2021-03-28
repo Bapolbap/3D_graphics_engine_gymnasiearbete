@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/src",
-  "command": "C:\\Users\\PABLO~1.JOF\\DOCUME~1\\C__SAK~1\\mingw64\\bin\\X8E3D3~1.EXE  @CMakeFiles/3D_PROJECT.dir/includes_CXX.rsp -g -o CMakeFiles\\3D_PROJECT.dir\\test.cpp.obj -c C:\\Users\\pablo.jofre\\Documents\\GitHub\\3D_graphics_engine_gymnasiearbete\\src\\test.cpp",
-  "file": "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/src/test.cpp"
+  "directory": "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build",
+  "command": "C:\\Users\\PABLO~1.JOF\\DOCUME~1\\C__SAK~1\\mingw64\\bin\\X8E3D3~1.EXE   -g -o CMakeFiles\\3D_PROJECT.dir\\test.cpp.obj -c C:\\Users\\pablo.jofre\\Documents\\GitHub\\3D_graphics_engine_gymnasiearbete\\test.cpp",
+  "file": "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/test.cpp"
 },
 {
-  "directory": "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build/src",
-  "command": "C:\\Users\\PABLO~1.JOF\\DOCUME~1\\C__SAK~1\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/3D_PROJECT.dir/includes_C.rsp -g -o CMakeFiles\\3D_PROJECT.dir\\glad.c.obj -c C:\\Users\\pablo.jofre\\Documents\\GitHub\\3D_graphics_engine_gymnasiearbete\\src\\glad.c",
-  "file": "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/src/glad.c"
+  "directory": "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/build",
+  "command": "C:\\Users\\PABLO~1.JOF\\DOCUME~1\\C__SAK~1\\mingw64\\bin\\X8EAA8~1.EXE   -g -o CMakeFiles\\3D_PROJECT.dir\\glad.c.obj -c C:\\Users\\pablo.jofre\\Documents\\GitHub\\3D_graphics_engine_gymnasiearbete\\glad.c",
+  "file": "C:/Users/pablo.jofre/Documents/GitHub/3D_graphics_engine_gymnasiearbete/glad.c"
 }
 ]

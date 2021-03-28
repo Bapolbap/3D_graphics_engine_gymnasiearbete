@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/libglad.a"
+			"path" : "libglad.a"
 		}
 	],
 	"backtrace" : 1,
@@ -15,7 +15,7 @@
 		],
 		"files" : 
 		[
-			"lib/CMakeLists.txt"
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -25,18 +25,18 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1,
+				"line" : 4,
 				"parent" : 0
 			}
 		]
 	},
-	"id" : "glad::@306ed2d68c6501e8728f",
+	"id" : "glad::@6890427a1f51a3e7e1df",
 	"name" : "glad",
 	"nameOnDisk" : "libglad.a",
 	"paths" : 
 	{
-		"build" : "lib",
-		"source" : "lib"
+		"build" : ".",
+		"source" : "."
 	},
 	"sourceGroups" : 
 	[
@@ -53,12 +53,12 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "lib/glad/glad.h",
+			"path" : "glad.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "lib/glad/khrplatform.h",
+			"path" : "khrplatform.h",
 			"sourceGroupIndex" : 0
 		}
 	],

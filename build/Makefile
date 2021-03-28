@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = C:\Users\pablo.jofre\Documents\GitHub\3D_graphics_engine_gymn
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"C:\Users\pablo.jofre\Documents\c++ saker\cmake-3.20.0-rc1-windows-x86_64\cmake-3.20.0-rc1-windows-x86_64\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -83,6 +73,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	"C:\Users\pablo.jofre\Documents\c++ saker\cmake-3.20.0-rc1-windows-x86_64\cmake-3.20.0-rc1-windows-x86_64\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -125,7 +125,7 @@ glad: cmake_check_build_system
 
 # fast build rule for target.
 glad/fast:
-	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\glad.dir\build.make lib/CMakeFiles/glad.dir/build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glad.dir\build.make CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
 #=============================================================================
@@ -138,7 +138,7 @@ glfw: cmake_check_build_system
 
 # fast build rule for target.
 glfw/fast:
-	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\glfw.dir\build.make lib/CMakeFiles/glfw.dir/build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw.dir\build.make CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
 #=============================================================================
@@ -151,8 +151,56 @@ glfw/fast:
 
 # fast build rule for target.
 3D_PROJECT/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\3D_PROJECT.dir\build.make src/CMakeFiles/3D_PROJECT.dir/build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3D_PROJECT.dir\build.make CMakeFiles/3D_PROJECT.dir/build
 .PHONY : 3D_PROJECT/fast
+
+glad.obj: glad.c.obj
+.PHONY : glad.obj
+
+# target to build an object file
+glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3D_PROJECT.dir\build.make CMakeFiles/3D_PROJECT.dir/glad.c.obj
+.PHONY : glad.c.obj
+
+glad.i: glad.c.i
+.PHONY : glad.i
+
+# target to preprocess a source file
+glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3D_PROJECT.dir\build.make CMakeFiles/3D_PROJECT.dir/glad.c.i
+.PHONY : glad.c.i
+
+glad.s: glad.c.s
+.PHONY : glad.s
+
+# target to generate assembly for a file
+glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3D_PROJECT.dir\build.make CMakeFiles/3D_PROJECT.dir/glad.c.s
+.PHONY : glad.c.s
+
+test.obj: test.cpp.obj
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3D_PROJECT.dir\build.make CMakeFiles/3D_PROJECT.dir/test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3D_PROJECT.dir\build.make CMakeFiles/3D_PROJECT.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3D_PROJECT.dir\build.make CMakeFiles/3D_PROJECT.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -165,6 +213,12 @@ help:
 	@echo ... 3D_PROJECT
 	@echo ... glad
 	@echo ... glfw
+	@echo ... glad.obj
+	@echo ... glad.i
+	@echo ... glad.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

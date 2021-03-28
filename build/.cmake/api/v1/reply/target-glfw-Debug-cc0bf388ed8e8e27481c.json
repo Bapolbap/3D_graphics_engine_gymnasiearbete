@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/libglfw.a"
+			"path" : "libglfw.a"
 		}
 	],
 	"backtrace" : 1,
@@ -15,7 +15,7 @@
 		],
 		"files" : 
 		[
-			"lib/CMakeLists.txt"
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -25,18 +25,18 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 10,
 				"parent" : 0
 			}
 		]
 	},
-	"id" : "glfw::@306ed2d68c6501e8728f",
+	"id" : "glfw::@6890427a1f51a3e7e1df",
 	"name" : "glfw",
 	"nameOnDisk" : "libglfw.a",
 	"paths" : 
 	{
-		"build" : "lib",
-		"source" : "lib"
+		"build" : ".",
+		"source" : "."
 	},
 	"sourceGroups" : 
 	[
@@ -53,12 +53,12 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "lib/GLFW/glfw3.h",
+			"path" : "glfw3.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "lib/GLFW/glfw3native.h",
+			"path" : "glfw3native.h",
 			"sourceGroupIndex" : 0
 		}
 	],
